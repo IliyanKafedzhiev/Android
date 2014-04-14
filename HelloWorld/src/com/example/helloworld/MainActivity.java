@@ -9,16 +9,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.VideoView;
 import android.os.Build;
 
 public class MainActivity extends ActionBarActivity {
 
+	private VideoView Vone;
     @Override
     protected void onCreate(Bundle savedInstanceState) 
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+        Vone=(VideoView)findViewById(R.id.videoView1);
+       
         
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
