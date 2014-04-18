@@ -10,11 +10,9 @@
     tools:context="com.example.helloworld.MainActivity$PlaceholderFragment" >
 
     <TextView
+        style="@style/TextViewsStyle"
         android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world"
-        android:textColor="@color/naBobiCveta" />
+        android:text="@string/hello_world" />
 
     <EditText
         android:id="@+id/editText1"
