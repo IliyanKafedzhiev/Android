@@ -56,10 +56,15 @@
 	    	android:layout_height="wrap_content" 
 	    	android:layout_width="fill_parent" 
 	    	android:scrollbars="vertical" >
-	
-	        <requestFocus 
-	            />
 	    </EditText>
+
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:contentDescription="@string/showPick"
+	        android:layout_width="282dp"
+	        android:visibility="invisible"
+	        android:layout_height="match_parent"
+	        android:src="@drawable/abc_list_pressed_holo_dark" />
 	
 	</LinearLayout>
 

@@ -46,4 +46,10 @@
         android:text="@string/hintButton"
         android:background="@drawable/red_button" />
 
+    <Button
+        style="@style/button_text"
+        android:id="@+id/ButtonGoGridView"
+        android:text="@string/GoToGridButton"
+        android:background="@drawable/red_button" />
+
 </LinearLayout>

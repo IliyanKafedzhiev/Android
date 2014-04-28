@@ -27,4 +27,10 @@
         <item>Traveling</item>
         <item>Education</item>
     </string-array>
+        <string name="log_out_selected">logout</string>
+        <string name="logout_message">Do you really want to logout ?</string>
+        <string name="stayHere">No</string>
+        <string name="logout">Yes</string>
+        <string name="showPick">showPick</string>
+        <string name="GoToGridButton">GoToGridView</string>
 </resources>

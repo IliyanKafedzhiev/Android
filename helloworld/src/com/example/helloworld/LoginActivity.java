@@ -13,6 +13,7 @@ import android.widget.Toast;
 public class LoginActivity extends Activity implements OnClickListener{
 	
 	Button LoginButton;
+	Button GoToGridView;
 	EditText Username;
 	EditText Password;
 	Validatator Val;
@@ -24,6 +25,8 @@ public class LoginActivity extends Activity implements OnClickListener{
 	        setContentView(R.layout.login_activity);
 	        LoginButton = (Button)findViewById(R.id.ButtonLogin);
 	        LoginButton.setOnClickListener(this);
+	        GoToGridView = (Button)findViewById(R.id.ButtonGoGridView);
+	        GoToGridView.setOnClickListener(this);
 	        Username = (EditText)findViewById(R.id.username);
 	        Password = (EditText)findViewById(R.id.password);
 	        Val.user = new String("u");
@@ -58,6 +61,11 @@ public class LoginActivity extends Activity implements OnClickListener{
 			{
 				Toast.makeText(this, R.string.wrongCredantials, Toast.LENGTH_LONG).show();
 			}
+		}
+		else if (GoToGridView.getId() == v.getId())
+		{
+			Intent run = new Intent(this,GridViewActivity.class);
+			startActivity(run);
 		}
 	}
 }
