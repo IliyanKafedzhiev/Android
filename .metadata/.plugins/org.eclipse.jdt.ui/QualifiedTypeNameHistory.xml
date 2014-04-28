@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="android.widget.AdapterView.OnItemSelectedListener"/>
+<fullyQualifiedTypeName name="com.example.helloworld.LoginActivity"/>
+<fullyQualifiedTypeName name="android.app.DialogFragment"/>
+<fullyQualifiedTypeName name="android.app.AlertDialog"/>
+<fullyQualifiedTypeName name="android.app.Dialog"/>
+<fullyQualifiedTypeName name="com.example.helloworld.R.string"/>
+<fullyQualifiedTypeName name="android.content.DialogInterface"/>
+<fullyQualifiedTypeName name="com.example.helloworld.EmailSender"/>
+<fullyQualifiedTypeName name="android.widget.ImageView"/>
+<fullyQualifiedTypeName name="com.example.helloworld.EmailSender.PlaceholderFragment"/>
+<fullyQualifiedTypeName name="android.opengl.Visibility"/>
+<fullyQualifiedTypeName name="com.example.helloworld.R.id"/>
+<fullyQualifiedTypeName name="com.example.helloworld.GridViewActivity"/>
+</qualifiedTypeNameHistroy>
