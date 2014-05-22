@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidSu_04_UIInteraction</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="log_out">Log Out</string>
+    <string name="toggle_image">Toggle Image</string>
+    <string name="johny_bravo">Johny Bravo</string>
+    <string name="none">none</string>
+    <string name="remove">Remove</string>
+    <string name="hello_there">Hello There</string>
+    <string name="add_note">Add Note</string>
+
+    <string-array name="notes_defaults">
+        <item>Test note 1</item>
+        <item>Test note 2</item>
+        <item>Test note 3</item>
+        <item>Test note 4 much longer than initially expected which goes on and on and on and ooooooon</item>
+    </string-array>
+
+</resources>

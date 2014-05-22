@@ -1,0 +1,33 @@
+package com.example.helloworld;
+
+public class Contact {
+
+	private String name;
+	private String id;
+	private String phoneNumber;
+	public void setName(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setID(int parseInt) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setPhoneNumber(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getPhoneNumber() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

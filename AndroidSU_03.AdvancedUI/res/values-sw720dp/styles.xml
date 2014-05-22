@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Button.FixedDims">
+        <item name="android:maxWidth">75dp</item>
+        <item name="android:minWidth">75dp</item>
+        <item name="android:maxHeight">75dp</item>
+        <item name="android:minHeight">75dp</item>
+    </style>
+
+    <style name="Button.FixedWidth">
+        <item name="android:maxWidth">75dp</item>
+        <item name="android:minWidth">75dp</item>
+    </style>
+
+    <style name="Button.FixedHeight">
+        <item name="android:maxHeight">75dp</item>
+        <item name="android:minHeight">75dp</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="TextView.FixedHeight">
+        <item name="android:layout_height">75dp</item>
+    </style>
+
+</resources>

@@ -11,13 +11,13 @@
     <string name="wrongCredantials">Wrong password or username \n Try again !</string>
     <string name="FontFamilyTextViews">sans-serif-thin</string>
     <string name="title_activity_email_sender">EmailSender</string>
-	<string name="EmailSenderTo">To:</string>
-	<string name="EmailHint">e-mail</string>
-	<string name="SpinnerHint">About:</string>
-	<string name="WriteHere">Write here your message:</string>
-	<string name="SendEmail">Send Email</string>
-	
-	<string-array name="an_about_email_array">
+    <string name="EmailSenderTo">To:</string>
+    <string name="EmailHint">e-mail</string>
+    <string name="SpinnerHint">About:</string>
+    <string name="WriteHere">Write here your message:</string>
+    <string name="SendEmail">Send Email</string>
+
+    <string-array name="an_about_email_array">
         <item>Parties</item>
         <item>Work</item>
         <item>Bussines</item>
@@ -27,10 +27,15 @@
         <item>Traveling</item>
         <item>Education</item>
     </string-array>
-        <string name="log_out_selected">logout</string>
-        <string name="logout_message">Do you really want to logout ?</string>
-        <string name="stayHere">No</string>
-        <string name="logout">Yes</string>
-        <string name="showPick">showPick</string>
-        <string name="GoToGridButton">GoToGridView</string>
+
+    <string name="log_out_selected">logout</string>
+    <string name="logout_message">Do you really want to logout ?</string>
+    <string name="stayHere">No</string>
+    <string name="logout">Yes</string>
+    <string name="showPick">showPick</string>
+    <string name="GoToGridButton">GoToGridView</string>
+    <string name="title_activity_http_test">HttpTest</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
 </resources>

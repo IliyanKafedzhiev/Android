@@ -52,4 +52,17 @@
         android:text="@string/GoToGridButton"
         android:background="@drawable/red_button" />
 
+    <Button
+        android:id="@+id/button_start_thread"
+        style="@style/button_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Thread" />
+
+    <Button
+        android:id="@+id/button_start_Http_request"
+        style="@style/button_text"
+        android:background="@drawable/red_button"
+        android:text="TestHttp" />
+
 </LinearLayout>

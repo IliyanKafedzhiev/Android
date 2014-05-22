@@ -1,6 +1,8 @@
 package com.example.helloworld;
 
 
+import java.util.List;
+
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -12,9 +14,9 @@ import android.widget.TextView;
  
 public class ImageAdapter extends BaseAdapter {
 	private Context context;
-	private final String[] mobileValues;
+	public final List<String> mobileValues;
  
-	public ImageAdapter(Context context, String[] mobileValues) {
+	public ImageAdapter(Context context, List<String> mobileValues) {
 		this.context = context;
 		this.mobileValues = mobileValues;
 	}
@@ -36,19 +38,19 @@ public class ImageAdapter extends BaseAdapter {
 			// set value into textview
 			TextView textView = (TextView) gridView
 					.findViewById(R.id.grid_item_label);
-			textView.setText(mobileValues[position]);
+			textView.setText(mobileValues.get(position));
  
 			// set image based on selected text
 			ImageView imageView = (ImageView) gridView
 					.findViewById(R.id.grid_item_image);
  
-			String mobile = mobileValues[position];
+			Integer mobile = Integer.getInteger(mobileValues.get(position));
  
-			if (mobile.equals("Windows")) {
+			if (mobile != null && mobile % 4 == 0 ) {
 				imageView.setImageResource(R.drawable.abc_ab_bottom_solid_dark_holo);
-			} else if (mobile.equals("iOS")) {
+			} else if (mobile != null && mobile % 4 == 1) {
 				imageView.setImageResource(R.drawable.abc_ab_bottom_solid_light_holo);
-			} else if (mobile.equals("Blackberry")) {
+			} else if (mobile != null && mobile % 4 == 2) {
 				imageView.setImageResource(R.drawable.abc_ab_solid_light_holo);
 			} else {
 				imageView.setImageResource(R.drawable.abc_ic_ab_back_holo_dark);
@@ -57,13 +59,13 @@ public class ImageAdapter extends BaseAdapter {
 		} else {
 			gridView = (View) convertView;
 		}
- 
+		((GridPositionGeter)this.context).SetCurrentPosition(position);
 		return gridView;
 	}
  
 	@Override
 	public int getCount() {
-		return mobileValues.length;
+		return mobileValues.size();
 	}
  
 	@Override

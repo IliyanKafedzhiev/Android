@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidSU_03.AdvancedUI</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="email_subjects">
+        <item>Bug Report</item>
+        <item>Suggestion</item>
+        <item>Salute</item>
+    </string-array>
+
+</resources>

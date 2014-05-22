@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_login"
+        android:title="Login Page"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/action_calculator"
+        android:title="Calculator"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/action_mailclient"
+        android:title="Mail Client"
+        android:showAsAction="never"/>
+
+</menu>

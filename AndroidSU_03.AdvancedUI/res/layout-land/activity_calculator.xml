@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:layout_gravity="center" >
+
+    <TextView
+        android:id="@+id/textViewResults"
+        style="@style/TextView.FixedHeight"
+        android:layout_width="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/buttonDel"
+        android:drawableBottom="@android:color/black"
+        android:hint="_"
+        android:padding="15dp"
+        android:gravity="right"
+        tools:ignore="HardcodedText" >
+    </TextView>
+
+    <Button
+        android:id="@+id/buttonSeven"
+        style="@style/Button.FixedDims"
+        android:layout_below="@+id/textViewResults"
+        android:layout_toRightOf="@+id/buttonSix"
+        android:text="7"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonEight"
+        style="@style/Button.FixedDims"
+        android:layout_below="@+id/textViewResults"
+        android:layout_toRightOf="@+id/buttonSeven"
+        android:text="8"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonNine"
+        style="@style/Button.FixedDims"
+        android:layout_below="@+id/textViewResults"
+        android:layout_toRightOf="@+id/buttonEight"
+        android:text="9"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonPlus"
+        style="@style/Button.FixedDims"
+        android:layout_below="@+id/buttonOne"
+        android:layout_toRightOf="@+id/buttonZero"
+        android:text="+"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonFour"
+        style="@style/Button.FixedDims"
+        android:layout_below="@+id/buttonSix"
+        android:layout_toRightOf="@+id/buttonThree"
+        android:text="4"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonFive"
+        style="@style/Button.FixedDims"
+        android:layout_below="@+id/textViewResults"
+        android:layout_toRightOf="@+id/buttonNine"
+        android:text="5"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonMinus"
+        style="@style/Button.FixedDims"
+        android:layout_below="@+id/buttonFour"
+        android:layout_toRightOf="@+id/buttonPlus"
+        android:text="-"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonOne"
+        style="@style/Button.FixedDims"
+        android:layout_below="@+id/buttonSix"
+        android:text="1"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonTwo"
+        style="@style/Button.FixedDims"
+        android:layout_below="@+id/buttonSix"
+        android:layout_toRightOf="@+id/buttonOne"
+        android:text="2"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonThree"
+        style="@style/Button.FixedDims"
+        android:layout_below="@+id/buttonSix"
+        android:layout_toRightOf="@+id/buttonTwo"
+        android:text="3"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonEquals"
+        style="@style/Button.FixedWidth"
+        android:layout_alignBottom="@+id/buttonZero"
+        android:layout_alignTop="@+id/buttonFour"
+        android:layout_toRightOf="@+id/buttonFour"
+        android:text="="
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonMultiply"
+        style="@style/Button.FixedDims"
+        android:layout_below="@+id/buttonOne"
+        android:layout_toLeftOf="@+id/buttonEquals"
+        android:text="*"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonZero"
+        style="@style/Button.FixedDims"
+        android:layout_below="@+id/buttonOne"
+        android:text="0"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonDel"
+        style="@style/Button.FixedDims"
+        android:layout_alignTop="@+id/textViewResults"
+        android:layout_toRightOf="@+id/buttonNine"
+        android:text="&#x25c0;"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonSix"
+        style="@style/Button.FixedDims"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewResults"
+        android:text="6"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

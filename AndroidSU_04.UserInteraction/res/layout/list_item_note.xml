@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imageViewNoteImg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="Johnson"
+        android:src="@drawable/johny_bravo_thumb"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_list_item_note_middle"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView_list_item_note_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@android:string/untitled" >
+        </TextView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonRemoveNoteItem"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="Del"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

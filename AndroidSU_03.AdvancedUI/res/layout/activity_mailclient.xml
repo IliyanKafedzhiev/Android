@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:scrollbars="vertical" >
+
+        <TextView
+            style="@style/TextField.FontNormal"
+            android:text="To: "
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/editTextTo"
+            style="@style/TextField.FontNormal"
+            android:hint="E-mail address"
+            android:inputType="textEmailAddress"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            style="@style/TextField.FontNormal"
+            android:text="Subject:"
+            tools:ignore="HardcodedText" />
+
+        <Spinner
+            android:id="@+id/spinnerEmailSubject"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/email_subjects"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            style="@style/TextField.FontNormal"
+            android:text="Message Body:"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/editTextEmailtMessageBody"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:gravity="left|top"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/buttonSendEmail"
+            style="@style/FontNormal"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="Send"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</ScrollView>

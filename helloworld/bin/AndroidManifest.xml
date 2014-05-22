@@ -7,22 +7,35 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <activity android:name="EmailSender" android:theme="@style/AppBaseTheme"></activity>
-        <activity android:name="LoginActivity" android:theme="@style/AppBaseTheme">
+        <activity
+            android:name="com.example.helloworld.EmailSender"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name="com.example.helloworld.LoginActivity"
+            android:theme="@style/AppBaseTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="GridViewActivity" android:theme="@style/AppBaseTheme">
-            
+        <activity
+            android:name="com.example.helloworld.GridViewActivity"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity android:name="com.example.helloworld.HttpTest"
+            android:label="@string/title_activity_http_test"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/FullscreenTheme"
+            >
         </activity>
     </application>
 
